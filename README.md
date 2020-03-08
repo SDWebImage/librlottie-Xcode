@@ -31,8 +31,6 @@ The rlottie source code use [C++ Thread Local](https://cppreference.com/w/cpp/ke
 
 This is why we have to limit the min deployment target version on iOS. Learn more here: [Why does Apple clang disallow C++11 thread_local when 'official' clang supports it](https://stackoverflow.com/questions/28094794/why-does-apple-clang-disallow-c11-thread-local-when-official-clang-supports)
 
-You should use build any 32-bit i386 Simulator target in your App as well. If you really need 32-bit i386 simulator, folk the [rlottie](https://github.com/Samsung/rlottie) and modify the source code by your own.
-
 ## Installation
 
 ### Carthage
