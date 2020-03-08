@@ -25,6 +25,14 @@ The Samsung's rlottie does not currently use any release tag, see: [rlottie#159]
 
 + v0.1.0 use the commit HASH a717479
 
+## For iOS and Simulator
+
+The rlottie source code use [C++ Thread Local](https://cppreference.com/w/cpp/keyword/thread_local) feature. However, iOS use system provided ABI for C++ thread local support but not language side, which works only on iOS 9.0+, and does not support 32-bit i386 Simulator.
+
+This is why we have to limit the min deployment target version on iOS. Learn more here: [Why does Apple clang disallow C++11 thread_local when 'official' clang supports it](https://stackoverflow.com/questions/28094794/why-does-apple-clang-disallow-c11-thread-local-when-official-clang-supports)
+
+You should use build any 32-bit i386 Simulator target in your App as well. If you really need 32-bit i386 simulator, folk the [rlottie](https://github.com/Samsung/rlottie) and modify the source code by your own.
+
 ## Installation
 
 ### Carthage
@@ -76,10 +84,14 @@ For Swift Package Manager user, it's recommended to use the modular import inste
 import librlottie
 ```
 
-Note: librlottie's modulemap does not contains C++ header, because Swift/Objective-C can not import C++ interface (Objective-C++ can). If you need the C++ interface, use the public header search path and disable module instead.
+## For C++ user
+
+The rlottie umbrella header and modulemap does not contains C++ header `rlottie.h`, because Swift/Objective-C can not import C++ interface (Objective-C++ can, but with clang module disabled).
+
+If you need the C++ interface, use the public header search path to `include`, make sure you have disable module as well.
 
 ## License
 
-librlottie is available under the [Alliance for Open Media Patent License](https://aomedia.org/license/software-license/).
+librlottie is available under the [LGPL License](https://github.com/Samsung/rlottie/blob/master/COPYING).
 
 

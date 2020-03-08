@@ -36,7 +36,8 @@ rlottie is a platform independent standalone c++ library for rendering vector ba
   s.exclude_files = 'rlottie/src/lottie/rapidjson', 'rlottie/src/vector/pixman', 'rlottie/src/vector/vdrawhelper_neon.cpp'
 
   s.pod_target_xcconfig = {
-    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_TARGET_SRCROOT}/generate'
+    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_TARGET_SRCROOT}/generate',
+    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64'
   }
   s.preserve_paths = 'rlottie', 'include', 'generate'
   s.libraries = 'c++'
