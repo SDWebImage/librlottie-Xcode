@@ -15,7 +15,7 @@ This repo also including the CocoaPods's spec file to use rlottie.
 ## Requirements
 
 + iOS 8
-+ macOS 10.6
++ macOS 10.7
 + tvOS 9.0
 + watchOS 2.0
 
@@ -75,6 +75,8 @@ For Swift Package Manager user, it's recommended to use the modular import inste
 ```swift
 import librlottie
 ```
+
+Note: librlottie's modulemap does not contains C++ header, because Swift/Objective-C can not import C++ interface (Objective-C++ can). If you need the C++ interface, use the public header search path and disable module instead.
 
 ## License
 
