@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3232F65A2414A06900A1A4F6 /* librlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F6582414A06900A1A4F6 /* librlottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3232F8B62414A0D600A1A4F6 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F8B52414A0D600A1A4F6 /* config.h */; };
 		3232FA972414A34C00A1A4F6 /* lottieanimation_capi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F96F2414A34B00A1A4F6 /* lottieanimation_capi.cpp */; };
 		3232FA9A2414A34C00A1A4F6 /* lottiemodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9732414A34B00A1A4F6 /* lottiemodel.cpp */; };
@@ -84,6 +83,7 @@
 		3232FB322414A6D800A1A4F6 /* rlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB2F2414A6D700A1A4F6 /* rlottie.h */; };
 		3232FB332414A6D800A1A4F6 /* rlottie_capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB302414A6D700A1A4F6 /* rlottie_capi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3249BCB72415079000E29E73 /* vdrawhelper_neon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */; };
+		3249BD0724151C0800E29E73 /* librlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3249BD0624151C0800E29E73 /* librlottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,7 +121,6 @@
 
 /* Begin PBXFileReference section */
 		3232F64C2414A04F00A1A4F6 /* librlottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = librlottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3232F6582414A06900A1A4F6 /* librlottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = librlottie.h; sourceTree = "<group>"; };
 		3232F8B52414A0D600A1A4F6 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		3232F8B72414A29D00A1A4F6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3232F96F2414A34B00A1A4F6 /* lottieanimation_capi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lottieanimation_capi.cpp; sourceTree = "<group>"; };
@@ -198,6 +197,7 @@
 		3232FB2F2414A6D700A1A4F6 /* rlottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlottie.h; sourceTree = "<group>"; };
 		3232FB302414A6D700A1A4F6 /* rlottie_capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlottie_capi.h; sourceTree = "<group>"; };
 		3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdrawhelper_neon.cpp; sourceTree = "<group>"; };
+		3249BD0624151C0800E29E73 /* librlottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = librlottie.h; path = include/librlottie.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -244,8 +244,8 @@
 		3232F6572414A06900A1A4F6 /* Xcode */ = {
 			isa = PBXGroup;
 			children = (
+				3249BD0624151C0800E29E73 /* librlottie.h */,
 				3232F8B72414A29D00A1A4F6 /* Info.plist */,
-				3232F6582414A06900A1A4F6 /* librlottie.h */,
 			);
 			path = Xcode;
 			sourceTree = "<group>";
@@ -435,7 +435,6 @@
 				3232FB092414A34C00A1A4F6 /* vimageloader.h in Headers */,
 				3232FB0B2414A34C00A1A4F6 /* vmatrix.h in Headers */,
 				3232FB022414A34C00A1A4F6 /* vrect.h in Headers */,
-				3232F65A2414A06900A1A4F6 /* librlottie.h in Headers */,
 				3232FB0D2414A34C00A1A4F6 /* vcowptr.h in Headers */,
 				3232FB312414A6D800A1A4F6 /* rlottiecommon.h in Headers */,
 				3232FAFE2414A34C00A1A4F6 /* vglobal.h in Headers */,
@@ -467,6 +466,7 @@
 				3232FAEE2414A34C00A1A4F6 /* vpath.h in Headers */,
 				3232FB032414A34C00A1A4F6 /* vinterpolator.h in Headers */,
 				3232FB0A2414A34C00A1A4F6 /* vraster.h in Headers */,
+				3249BD0724151C0800E29E73 /* librlottie.h in Headers */,
 				3232FAED2414A34C00A1A4F6 /* vdebug.h in Headers */,
 				3232FACB2414A34C00A1A4F6 /* lottiemodel.h in Headers */,
 				3232FAF52414A34C00A1A4F6 /* vline.h in Headers */,
