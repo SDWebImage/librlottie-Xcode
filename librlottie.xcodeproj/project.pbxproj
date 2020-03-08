@@ -83,7 +83,7 @@
 		3232FB322414A6D800A1A4F6 /* rlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB2F2414A6D700A1A4F6 /* rlottie.h */; };
 		3232FB332414A6D800A1A4F6 /* rlottie_capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB302414A6D700A1A4F6 /* rlottie_capi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3249BCB72415079000E29E73 /* vdrawhelper_neon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */; };
-		3249BD092415249100E29E73 /* librlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3249BD082415249000E29E73 /* librlottie.h */; };
+		3249BD092415249100E29E73 /* librlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3249BD082415249000E29E73 /* librlottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
