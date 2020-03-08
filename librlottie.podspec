@@ -37,7 +37,9 @@ rlottie is a platform independent standalone c++ library for rendering vector ba
 
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_TARGET_SRCROOT}/generate',
-    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64'
+    'VALID_ARCHS[sdk=appletvsimulator*]' => 'x86_64',
+    'VALID_ARCHS[sdk=iphonesimulator*]' => 'x86_64',
+    'VALID_ARCHS[sdk=watchsimulator*]' => 'x86_64'
   }
   s.preserve_paths = 'rlottie', 'include', 'generate'
   s.libraries = 'c++'
