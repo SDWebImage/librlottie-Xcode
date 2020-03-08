@@ -26,7 +26,7 @@ let package = Package(
             path: ".",
             exclude: ["rlottie/src/lottie/rapidjson", "rlottie/src/vector/pixman", "rlottie/src/vector/vdrawhelper_neon.cpp"],
             sources: ["rlottie/src", "generate"],
-            publicHeadersPath: "include",
+            publicHeadersPath: "Xcode",
             cSettings: [.headerSearchPath("generate"), .headerSearchPath("rlottie/inc"), .headerSearchPath("rlottie/src/vector"), .headerSearchPath("rlottie/src/vector/freetype")]
         )
     ],
