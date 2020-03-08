@@ -253,17 +253,9 @@
 		3232F8B32414A0D600A1A4F6 /* generate */ = {
 			isa = PBXGroup;
 			children = (
-				3232F8B42414A0D600A1A4F6 /* config */,
-			);
-			path = generate;
-			sourceTree = "<group>";
-		};
-		3232F8B42414A0D600A1A4F6 /* config */ = {
-			isa = PBXGroup;
-			children = (
 				3232F8B52414A0D600A1A4F6 /* config.h */,
 			);
-			path = config;
+			path = generate;
 			sourceTree = "<group>";
 		};
 		3232F8B92414A34B00A1A4F6 /* rlottie */ = {
