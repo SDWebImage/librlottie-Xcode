@@ -14,8 +14,8 @@ This repo also including the CocoaPods's spec file to use rlottie.
 
 ## Requirements
 
-+ iOS 8
-+ macOS 10.7
++ iOS 9
++ macOS 10.10
 + tvOS 9.0
 + watchOS 2.0
 

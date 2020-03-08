@@ -26,18 +26,18 @@ rlottie is a platform independent standalone c++ library for rendering vector ba
   s.author           = { 'Subhransu Mohanty' => 'sub.mohanty@samsung.co' }
   s.source           = { :git => 'https://github.com/SDWebImage/librlottie-Xcode.git', :tag => s.version.to_s, :submodules => true }
 
-  s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.7'
+  s.ios.deployment_target = '9.0'
+  s.osx.deployment_target = '10.10'
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'rlottie/src/**/*.{h,c,cpp}', 'include/**/*.h'
+  s.source_files = 'rlottie/src/**/*.{h,c,cpp}', 'include/**/*.h', 'generate/**/*.h'
   s.public_header_files = 'include/rlottie/lottie_capi.h', 'include/rlottie/rlottiecommon.h'
   s.exclude_files = 'rlottie/src/lottie/rapidjson', 'rlottie/src/vector/pixman'
 
   s.pod_target_xcconfig = {
-    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_TARGET_SRCROOT}/generate',
+    'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_TARGET_SRCROOT}/generate'
   }
-  s.preserve_paths = 'rlottie', 'include'
+  s.preserve_paths = 'rlottie', 'include', 'generate'
   s.libraries = 'c++'
 end
