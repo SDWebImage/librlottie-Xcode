@@ -31,9 +31,9 @@ rlottie is a platform independent standalone c++ library for rendering vector ba
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.source_files = 'rlottie/src/**/*.{h,c,cpp}', 'include/**/*.h', 'generate/**/*.h'
+  s.source_files = 'rlottie/src/**/*.{h,c,cpp}', 'include/**/*.h', 'generate/**/*.{h,c,cpp}'
   s.public_header_files = 'include/rlottie/lottie_capi.h', 'include/rlottie/rlottiecommon.h'
-  s.exclude_files = 'rlottie/src/lottie/rapidjson', 'rlottie/src/vector/pixman'
+  s.exclude_files = 'rlottie/src/lottie/rapidjson', 'rlottie/src/vector/pixman', 'rlottie/src/vector/vdrawhelper_neon.cpp'
 
   s.pod_target_xcconfig = {
     'HEADER_SEARCH_PATHS' => '$(inherited) ${PODS_TARGET_SRCROOT}/generate'

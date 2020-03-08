@@ -26,7 +26,6 @@
 		3232FACE2414A34C00A1A4F6 /* vdasher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9AC2414A34B00A1A4F6 /* vdasher.h */; };
 		3232FACF2414A34C00A1A4F6 /* vrle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9AD2414A34B00A1A4F6 /* vrle.h */; };
 		3232FAD02414A34C00A1A4F6 /* velapsedtimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9AE2414A34B00A1A4F6 /* velapsedtimer.cpp */; };
-		3232FAD12414A34C00A1A4F6 /* vdrawhelper_neon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9AF2414A34B00A1A4F6 /* vdrawhelper_neon.cpp */; };
 		3232FAD22414A34C00A1A4F6 /* velapsedtimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9B02414A34B00A1A4F6 /* velapsedtimer.h */; };
 		3232FAD42414A34C00A1A4F6 /* vrect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9B22414A34B00A1A4F6 /* vrect.cpp */; };
 		3232FAD52414A34C00A1A4F6 /* vdasher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9B32414A34B00A1A4F6 /* vdasher.cpp */; };
@@ -84,6 +83,7 @@
 		3232FB312414A6D800A1A4F6 /* rlottiecommon.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB2E2414A6D700A1A4F6 /* rlottiecommon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3232FB322414A6D800A1A4F6 /* rlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB2F2414A6D700A1A4F6 /* rlottie.h */; };
 		3232FB332414A6D800A1A4F6 /* rlottie_capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB302414A6D700A1A4F6 /* rlottie_capi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3249BCB72415079000E29E73 /* vdrawhelper_neon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -141,7 +141,6 @@
 		3232F9AC2414A34B00A1A4F6 /* vdasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdasher.h; sourceTree = "<group>"; };
 		3232F9AD2414A34B00A1A4F6 /* vrle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vrle.h; sourceTree = "<group>"; };
 		3232F9AE2414A34B00A1A4F6 /* velapsedtimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = velapsedtimer.cpp; sourceTree = "<group>"; };
-		3232F9AF2414A34B00A1A4F6 /* vdrawhelper_neon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdrawhelper_neon.cpp; sourceTree = "<group>"; };
 		3232F9B02414A34B00A1A4F6 /* velapsedtimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = velapsedtimer.h; sourceTree = "<group>"; };
 		3232F9B22414A34B00A1A4F6 /* vrect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vrect.cpp; sourceTree = "<group>"; };
 		3232F9B32414A34B00A1A4F6 /* vdasher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdasher.cpp; sourceTree = "<group>"; };
@@ -198,6 +197,7 @@
 		3232FB2E2414A6D700A1A4F6 /* rlottiecommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlottiecommon.h; sourceTree = "<group>"; };
 		3232FB2F2414A6D700A1A4F6 /* rlottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlottie.h; sourceTree = "<group>"; };
 		3232FB302414A6D700A1A4F6 /* rlottie_capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlottie_capi.h; sourceTree = "<group>"; };
+		3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdrawhelper_neon.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -254,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				3232F8B52414A0D600A1A4F6 /* config.h */,
+				3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */,
 			);
 			path = generate;
 			sourceTree = "<group>";
@@ -318,7 +319,6 @@
 				3232F9AC2414A34B00A1A4F6 /* vdasher.h */,
 				3232F9AD2414A34B00A1A4F6 /* vrle.h */,
 				3232F9AE2414A34B00A1A4F6 /* velapsedtimer.cpp */,
-				3232F9AF2414A34B00A1A4F6 /* vdrawhelper_neon.cpp */,
 				3232F9B02414A34B00A1A4F6 /* velapsedtimer.h */,
 				3232F9B22414A34B00A1A4F6 /* vrect.cpp */,
 				3232F9B32414A34B00A1A4F6 /* vdasher.cpp */,
@@ -566,7 +566,6 @@
 			files = (
 				3232FADB2414A34C00A1A4F6 /* vpath.cpp in Sources */,
 				3232FAF62414A34C00A1A4F6 /* vdrawable.cpp in Sources */,
-				3232FAD12414A34C00A1A4F6 /* vdrawhelper_neon.cpp in Sources */,
 				3232FAF72414A34C00A1A4F6 /* vpathmesure.cpp in Sources */,
 				3232FB012414A34C00A1A4F6 /* vmatrix.cpp in Sources */,
 				3232FAFD2414A34C00A1A4F6 /* vimageloader.cpp in Sources */,
@@ -595,6 +594,7 @@
 				3232FACC2414A34C00A1A4F6 /* lottieitem_capi.cpp in Sources */,
 				3232FB072414A34C00A1A4F6 /* vdrawhelper.cpp in Sources */,
 				3232FAA02414A34C00A1A4F6 /* lottieparser.cpp in Sources */,
+				3249BCB72415079000E29E73 /* vdrawhelper_neon.cpp in Sources */,
 				3232FAE72414A34C00A1A4F6 /* vbitmap.cpp in Sources */,
 				3232FAFA2414A34C00A1A4F6 /* varenaalloc.cpp in Sources */,
 				3232FADE2414A34C00A1A4F6 /* v_ft_raster.cpp in Sources */,

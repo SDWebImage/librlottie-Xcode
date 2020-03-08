@@ -24,8 +24,8 @@ let package = Package(
             name: "librlottie",
             dependencies: [],
             path: ".",
-            exclude: ["rlottie/src/lottie/rapidjson", "rlottie/src/vector/pixman"],
-            sources: ["rlottie/src"],
+            exclude: ["rlottie/src/lottie/rapidjson", "rlottie/src/vector/pixman", "rlottie/src/vector/vdrawhelper_neon.cpp"],
+            sources: ["rlottie/src", "generate"],
             publicHeadersPath: "include",
             cSettings: [.headerSearchPath("generate"), .headerSearchPath("rlottie/inc"), .headerSearchPath("rlottie/src/vector"), .headerSearchPath("rlottie/src/vector/freetype")]
         )
