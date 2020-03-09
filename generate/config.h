@@ -6,6 +6,9 @@
 #define thread_local
 #endif
 
+// disable JSON assert
+#define RAPIDJSON_ASSERT
+
 // enable threading
 #define LOTTIE_THREAD_SUPPORT
 
