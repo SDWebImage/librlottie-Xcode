@@ -21,9 +21,13 @@ This repo also including the CocoaPods's spec file to use rlottie.
 
 ## Note
 
-The Samsung's rlottie does not currently use any release tag, see: [rlottie#159](https://github.com/Samsung/rlottie/issues/159).
+The Samsung's rlottie now release the first tag version, see: [rlottie#159](https://github.com/Samsung/rlottie/issues/159). And this repo match the same version tag as upstream.
 
-+ v0.1.0 use the commit HASH a717479
+Previously this repo has same tag like v0.1.0, which use the HASH `a717479`. Now it's removed. Please update your Package Manager by following the steps:
+
++ CocoaPods: `pod cache clean librlottie` && `pod update`
++ Carthage: `rm -rf ~/Library/Caches/org.carthage.CarthageKit` && `carthage update --cache-builds`
++ SwiftPM: `Xcode Clean`
 
 ## For iOS and Simulator
 
