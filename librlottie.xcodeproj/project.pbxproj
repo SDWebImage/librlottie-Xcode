@@ -18,10 +18,8 @@
 		3232FAA22414A34C00A1A4F6 /* lottieitem.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F97B2414A34B00A1A4F6 /* lottieitem.h */; };
 		3232FAA32414A34C00A1A4F6 /* lottiekeypath.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F97C2414A34B00A1A4F6 /* lottiekeypath.h */; };
 		3232FAA52414A34C00A1A4F6 /* lottieproxymodel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F97E2414A34B00A1A4F6 /* lottieproxymodel.cpp */; };
-		3232FACA2414A34C00A1A4F6 /* lottieproxymodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9A72414A34B00A1A4F6 /* lottieproxymodel.h */; };
 		3232FACB2414A34C00A1A4F6 /* lottiemodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9A82414A34B00A1A4F6 /* lottiemodel.h */; };
 		3232FACC2414A34C00A1A4F6 /* lottieitem_capi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9A92414A34B00A1A4F6 /* lottieitem_capi.cpp */; };
-		3232FACD2414A34C00A1A4F6 /* lottieloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9AA2414A34B00A1A4F6 /* lottieloader.h */; };
 		3232FACE2414A34C00A1A4F6 /* vdasher.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9AC2414A34B00A1A4F6 /* vdasher.h */; };
 		3232FACF2414A34C00A1A4F6 /* vrle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9AD2414A34B00A1A4F6 /* vrle.h */; };
 		3232FAD02414A34C00A1A4F6 /* velapsedtimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9AE2414A34B00A1A4F6 /* velapsedtimer.cpp */; };
@@ -37,7 +35,6 @@
 		3232FAE22414A34C00A1A4F6 /* v_ft_stroker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9C22414A34B00A1A4F6 /* v_ft_stroker.h */; };
 		3232FAE32414A34C00A1A4F6 /* v_ft_math.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9C32414A34B00A1A4F6 /* v_ft_math.h */; };
 		3232FAE42414A34C00A1A4F6 /* v_ft_raster.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9C42414A34B00A1A4F6 /* v_ft_raster.h */; };
-		3232FAE52414A34C00A1A4F6 /* vcompositionfunctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9C52414A34B00A1A4F6 /* vcompositionfunctions.cpp */; };
 		3232FAE62414A34C00A1A4F6 /* vdrawhelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9C62414A34B00A1A4F6 /* vdrawhelper.h */; };
 		3232FAE72414A34C00A1A4F6 /* vbitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3232F9C72414A34B00A1A4F6 /* vbitmap.cpp */; };
 		3232FAE82414A34C00A1A4F6 /* vdrawable.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232F9C82414A34B00A1A4F6 /* vdrawable.h */; };
@@ -84,6 +81,8 @@
 		3232FB332414A6D800A1A4F6 /* rlottie_capi.h in Headers */ = {isa = PBXBuildFile; fileRef = 3232FB302414A6D700A1A4F6 /* rlottie_capi.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3249BCB72415079000E29E73 /* vdrawhelper_neon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */; };
 		3249BD092415249100E29E73 /* librlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3249BD082415249000E29E73 /* librlottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C82A48250B51B300C5B527 /* lottiefiltermodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A47250B51B300C5B527 /* lottiefiltermodel.h */; };
+		32C82A4A250B51FD00C5B527 /* vdrawhelper_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C82A49250B51FD00C5B527 /* vdrawhelper_common.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,10 +132,8 @@
 		3232F97B2414A34B00A1A4F6 /* lottieitem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lottieitem.h; sourceTree = "<group>"; };
 		3232F97C2414A34B00A1A4F6 /* lottiekeypath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lottiekeypath.h; sourceTree = "<group>"; };
 		3232F97E2414A34B00A1A4F6 /* lottieproxymodel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lottieproxymodel.cpp; sourceTree = "<group>"; };
-		3232F9A72414A34B00A1A4F6 /* lottieproxymodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lottieproxymodel.h; sourceTree = "<group>"; };
 		3232F9A82414A34B00A1A4F6 /* lottiemodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lottiemodel.h; sourceTree = "<group>"; };
 		3232F9A92414A34B00A1A4F6 /* lottieitem_capi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lottieitem_capi.cpp; sourceTree = "<group>"; };
-		3232F9AA2414A34B00A1A4F6 /* lottieloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lottieloader.h; sourceTree = "<group>"; };
 		3232F9AC2414A34B00A1A4F6 /* vdasher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdasher.h; sourceTree = "<group>"; };
 		3232F9AD2414A34B00A1A4F6 /* vrle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vrle.h; sourceTree = "<group>"; };
 		3232F9AE2414A34B00A1A4F6 /* velapsedtimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = velapsedtimer.cpp; sourceTree = "<group>"; };
@@ -152,7 +149,6 @@
 		3232F9C22414A34B00A1A4F6 /* v_ft_stroker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v_ft_stroker.h; sourceTree = "<group>"; };
 		3232F9C32414A34B00A1A4F6 /* v_ft_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v_ft_math.h; sourceTree = "<group>"; };
 		3232F9C42414A34B00A1A4F6 /* v_ft_raster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v_ft_raster.h; sourceTree = "<group>"; };
-		3232F9C52414A34B00A1A4F6 /* vcompositionfunctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vcompositionfunctions.cpp; sourceTree = "<group>"; };
 		3232F9C62414A34B00A1A4F6 /* vdrawhelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdrawhelper.h; sourceTree = "<group>"; };
 		3232F9C72414A34B00A1A4F6 /* vbitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vbitmap.cpp; sourceTree = "<group>"; };
 		3232F9C82414A34B00A1A4F6 /* vdrawable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vdrawable.h; sourceTree = "<group>"; };
@@ -198,6 +194,8 @@
 		3232FB302414A6D700A1A4F6 /* rlottie_capi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rlottie_capi.h; sourceTree = "<group>"; };
 		3249BCB62415079000E29E73 /* vdrawhelper_neon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdrawhelper_neon.cpp; sourceTree = "<group>"; };
 		3249BD082415249000E29E73 /* librlottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = librlottie.h; sourceTree = "<group>"; };
+		32C82A47250B51B300C5B527 /* lottiefiltermodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lottiefiltermodel.h; sourceTree = "<group>"; };
+		32C82A49250B51FD00C5B527 /* vdrawhelper_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdrawhelper_common.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,12 +301,11 @@
 				3232F9772414A34B00A1A4F6 /* lottiekeypath.cpp */,
 				3232F97C2414A34B00A1A4F6 /* lottiekeypath.h */,
 				3232F97A2414A34B00A1A4F6 /* lottieloader.cpp */,
-				3232F9AA2414A34B00A1A4F6 /* lottieloader.h */,
 				3232F9732414A34B00A1A4F6 /* lottiemodel.cpp */,
 				3232F9A82414A34B00A1A4F6 /* lottiemodel.h */,
 				3232F9792414A34B00A1A4F6 /* lottieparser.cpp */,
 				3232F97E2414A34B00A1A4F6 /* lottieproxymodel.cpp */,
-				3232F9A72414A34B00A1A4F6 /* lottieproxymodel.h */,
+				32C82A47250B51B300C5B527 /* lottiefiltermodel.h */,
 			);
 			path = lottie;
 			sourceTree = "<group>";
@@ -326,7 +323,6 @@
 				3232F9BA2414A34B00A1A4F6 /* vpath.cpp */,
 				3232FB102414A3C800A1A4F6 /* stb */,
 				3232F9BB2414A34B00A1A4F6 /* freetype */,
-				3232F9C52414A34B00A1A4F6 /* vcompositionfunctions.cpp */,
 				3232F9C62414A34B00A1A4F6 /* vdrawhelper.h */,
 				3232F9C72414A34B00A1A4F6 /* vbitmap.cpp */,
 				3232F9C82414A34B00A1A4F6 /* vdrawable.h */,
@@ -363,6 +359,7 @@
 				3232F9ED2414A34B00A1A4F6 /* vrle.cpp */,
 				3232F9EE2414A34B00A1A4F6 /* vcowptr.h */,
 				3232F9EF2414A34B00A1A4F6 /* vbrush.cpp */,
+				32C82A49250B51FD00C5B527 /* vdrawhelper_common.cpp */,
 			);
 			path = vector;
 			sourceTree = "<group>";
@@ -439,6 +436,7 @@
 				3232FB312414A6D800A1A4F6 /* rlottiecommon.h in Headers */,
 				3232FAFE2414A34C00A1A4F6 /* vglobal.h in Headers */,
 				3232FAE32414A34C00A1A4F6 /* v_ft_math.h in Headers */,
+				32C82A48250B51B300C5B527 /* lottiefiltermodel.h in Headers */,
 				3232FB002414A34C00A1A4F6 /* vpainter.h in Headers */,
 				3232F8B62414A0D600A1A4F6 /* config.h in Headers */,
 				3232FB082414A34C00A1A4F6 /* vstackallocator.h in Headers */,
@@ -446,7 +444,6 @@
 				3232FAF42414A34C00A1A4F6 /* vtaskqueue.h in Headers */,
 				3232FAE82414A34C00A1A4F6 /* vdrawable.h in Headers */,
 				3232FACF2414A34C00A1A4F6 /* vrle.h in Headers */,
-				3232FACA2414A34C00A1A4F6 /* lottieproxymodel.h in Headers */,
 				3232FADD2414A34C00A1A4F6 /* v_ft_types.h in Headers */,
 				3232FB332414A6D800A1A4F6 /* rlottie_capi.h in Headers */,
 				3232FAA22414A34C00A1A4F6 /* lottieitem.h in Headers */,
@@ -459,7 +456,6 @@
 				3232FAEA2414A34C00A1A4F6 /* vpoint.h in Headers */,
 				3232FAFB2414A34C00A1A4F6 /* vsharedptr.h in Headers */,
 				3232FB172414A3C800A1A4F6 /* stb_image.h in Headers */,
-				3232FACD2414A34C00A1A4F6 /* lottieloader.h in Headers */,
 				3232FAE62414A34C00A1A4F6 /* vdrawhelper.h in Headers */,
 				3232FAE22414A34C00A1A4F6 /* v_ft_stroker.h in Headers */,
 				3232FAE42414A34C00A1A4F6 /* v_ft_raster.h in Headers */,
@@ -569,13 +565,13 @@
 				3232FAF72414A34C00A1A4F6 /* vpathmesure.cpp in Sources */,
 				3232FB012414A34C00A1A4F6 /* vmatrix.cpp in Sources */,
 				3232FAFD2414A34C00A1A4F6 /* vimageloader.cpp in Sources */,
+				32C82A4A250B51FD00C5B527 /* vdrawhelper_common.cpp in Sources */,
 				3232FAF92414A34C00A1A4F6 /* vpainter.cpp in Sources */,
 				3232FB182414A3C800A1A4F6 /* stb_image.cpp in Sources */,
 				3232FAA12414A34C00A1A4F6 /* lottieloader.cpp in Sources */,
 				3232FA9E2414A34C00A1A4F6 /* lottiekeypath.cpp in Sources */,
 				3232FA9D2414A34C00A1A4F6 /* lottieanimation.cpp in Sources */,
 				3232FB0C2414A34C00A1A4F6 /* vrle.cpp in Sources */,
-				3232FAE52414A34C00A1A4F6 /* vcompositionfunctions.cpp in Sources */,
 				3232FAD02414A34C00A1A4F6 /* velapsedtimer.cpp in Sources */,
 				3232FB0E2414A34C00A1A4F6 /* vbrush.cpp in Sources */,
 				3232FA9B2414A34C00A1A4F6 /* lottieitem.cpp in Sources */,
