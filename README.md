@@ -60,7 +60,7 @@ librlottie is available through [Swift Package Manager](https://img.shields.io/b
 ```swift
 let package = Package(
     dependencies: [
-        .package(url: "https://github.com/SDWebImage/librlottie-Xcode", from: "0.1.0")
+        .package(url: "https://github.com/SDWebImage/librlottie-Xcode", from: "0.2.0")
     ],
     // ...
 )
