@@ -83,6 +83,41 @@
 		3249BD092415249100E29E73 /* librlottie.h in Headers */ = {isa = PBXBuildFile; fileRef = 3249BD082415249000E29E73 /* librlottie.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		32C82A48250B51B300C5B527 /* lottiefiltermodel.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A47250B51B300C5B527 /* lottiefiltermodel.h */; };
 		32C82A4A250B51FD00C5B527 /* vdrawhelper_common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 32C82A49250B51FD00C5B527 /* vdrawhelper_common.cpp */; };
+		32C82A74250B54C000C5B527 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A4C250B54C000C5B527 /* fwd.h */; };
+		32C82A75250B54C000C5B527 /* memorystream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A4D250B54C000C5B527 /* memorystream.h */; };
+		32C82A76250B54C000C5B527 /* reader.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A4E250B54C000C5B527 /* reader.h */; };
+		32C82A77250B54C000C5B527 /* prettywriter.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A4F250B54C000C5B527 /* prettywriter.h */; };
+		32C82A78250B54C000C5B527 /* ostreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A50250B54C000C5B527 /* ostreamwrapper.h */; };
+		32C82A79250B54C000C5B527 /* encodedstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A51250B54C000C5B527 /* encodedstream.h */; };
+		32C82A7A250B54C000C5B527 /* filereadstream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A52250B54C000C5B527 /* filereadstream.h */; };
+		32C82A7B250B54C000C5B527 /* cursorstreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A53250B54C000C5B527 /* cursorstreamwrapper.h */; };
+		32C82A7C250B54C000C5B527 /* istreamwrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A54250B54C000C5B527 /* istreamwrapper.h */; };
+		32C82A7D250B54C000C5B527 /* stringbuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A55250B54C000C5B527 /* stringbuffer.h */; };
+		32C82A7E250B54C000C5B527 /* ieee754.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A57250B54C000C5B527 /* ieee754.h */; };
+		32C82A7F250B54C000C5B527 /* strtod.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A58250B54C000C5B527 /* strtod.h */; };
+		32C82A80250B54C000C5B527 /* swap.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A59250B54C000C5B527 /* swap.h */; };
+		32C82A81250B54C000C5B527 /* regex.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A5A250B54C000C5B527 /* regex.h */; };
+		32C82A82250B54C000C5B527 /* diyfp.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A5B250B54C000C5B527 /* diyfp.h */; };
+		32C82A83250B54C000C5B527 /* biginteger.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A5C250B54C000C5B527 /* biginteger.h */; };
+		32C82A84250B54C000C5B527 /* strfunc.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A5D250B54C000C5B527 /* strfunc.h */; };
+		32C82A85250B54C000C5B527 /* itoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A5E250B54C000C5B527 /* itoa.h */; };
+		32C82A86250B54C000C5B527 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A5F250B54C000C5B527 /* stack.h */; };
+		32C82A87250B54C000C5B527 /* dtoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A60250B54C000C5B527 /* dtoa.h */; };
+		32C82A88250B54C000C5B527 /* clzll.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A61250B54C000C5B527 /* clzll.h */; };
+		32C82A89250B54C000C5B527 /* meta.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A62250B54C000C5B527 /* meta.h */; };
+		32C82A8A250B54C000C5B527 /* pow10.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A63250B54C000C5B527 /* pow10.h */; };
+		32C82A8B250B54C000C5B527 /* encodings.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A64250B54C000C5B527 /* encodings.h */; };
+		32C82A8C250B54C000C5B527 /* schema.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A65250B54C000C5B527 /* schema.h */; };
+		32C82A8D250B54C000C5B527 /* stream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A66250B54C000C5B527 /* stream.h */; };
+		32C82A8E250B54C000C5B527 /* filewritestream.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A67250B54C000C5B527 /* filewritestream.h */; };
+		32C82A8F250B54C000C5B527 /* rapidjson.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A68250B54C000C5B527 /* rapidjson.h */; };
+		32C82A90250B54C000C5B527 /* document.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A69250B54C000C5B527 /* document.h */; };
+		32C82A91250B54C000C5B527 /* allocators.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A6A250B54C000C5B527 /* allocators.h */; };
+		32C82A92250B54C000C5B527 /* writer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A6B250B54C000C5B527 /* writer.h */; };
+		32C82A93250B54C000C5B527 /* error.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A6D250B54C000C5B527 /* error.h */; };
+		32C82A94250B54C000C5B527 /* en.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A6E250B54C000C5B527 /* en.h */; };
+		32C82A95250B54C000C5B527 /* memorybuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A6F250B54C000C5B527 /* memorybuffer.h */; };
+		32C82A96250B54C000C5B527 /* pointer.h in Headers */ = {isa = PBXBuildFile; fileRef = 32C82A70250B54C000C5B527 /* pointer.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -196,6 +231,41 @@
 		3249BD082415249000E29E73 /* librlottie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = librlottie.h; sourceTree = "<group>"; };
 		32C82A47250B51B300C5B527 /* lottiefiltermodel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lottiefiltermodel.h; sourceTree = "<group>"; };
 		32C82A49250B51FD00C5B527 /* vdrawhelper_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = vdrawhelper_common.cpp; sourceTree = "<group>"; };
+		32C82A4C250B54C000C5B527 /* fwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fwd.h; sourceTree = "<group>"; };
+		32C82A4D250B54C000C5B527 /* memorystream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorystream.h; sourceTree = "<group>"; };
+		32C82A4E250B54C000C5B527 /* reader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = reader.h; sourceTree = "<group>"; };
+		32C82A4F250B54C000C5B527 /* prettywriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = prettywriter.h; sourceTree = "<group>"; };
+		32C82A50250B54C000C5B527 /* ostreamwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ostreamwrapper.h; sourceTree = "<group>"; };
+		32C82A51250B54C000C5B527 /* encodedstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodedstream.h; sourceTree = "<group>"; };
+		32C82A52250B54C000C5B527 /* filereadstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filereadstream.h; sourceTree = "<group>"; };
+		32C82A53250B54C000C5B527 /* cursorstreamwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cursorstreamwrapper.h; sourceTree = "<group>"; };
+		32C82A54250B54C000C5B527 /* istreamwrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = istreamwrapper.h; sourceTree = "<group>"; };
+		32C82A55250B54C000C5B527 /* stringbuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringbuffer.h; sourceTree = "<group>"; };
+		32C82A57250B54C000C5B527 /* ieee754.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ieee754.h; sourceTree = "<group>"; };
+		32C82A58250B54C000C5B527 /* strtod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strtod.h; sourceTree = "<group>"; };
+		32C82A59250B54C000C5B527 /* swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swap.h; sourceTree = "<group>"; };
+		32C82A5A250B54C000C5B527 /* regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = regex.h; sourceTree = "<group>"; };
+		32C82A5B250B54C000C5B527 /* diyfp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diyfp.h; sourceTree = "<group>"; };
+		32C82A5C250B54C000C5B527 /* biginteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biginteger.h; sourceTree = "<group>"; };
+		32C82A5D250B54C000C5B527 /* strfunc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = strfunc.h; sourceTree = "<group>"; };
+		32C82A5E250B54C000C5B527 /* itoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = itoa.h; sourceTree = "<group>"; };
+		32C82A5F250B54C000C5B527 /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		32C82A60250B54C000C5B527 /* dtoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtoa.h; sourceTree = "<group>"; };
+		32C82A61250B54C000C5B527 /* clzll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = clzll.h; sourceTree = "<group>"; };
+		32C82A62250B54C000C5B527 /* meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = meta.h; sourceTree = "<group>"; };
+		32C82A63250B54C000C5B527 /* pow10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pow10.h; sourceTree = "<group>"; };
+		32C82A64250B54C000C5B527 /* encodings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encodings.h; sourceTree = "<group>"; };
+		32C82A65250B54C000C5B527 /* schema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = schema.h; sourceTree = "<group>"; };
+		32C82A66250B54C000C5B527 /* stream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stream.h; sourceTree = "<group>"; };
+		32C82A67250B54C000C5B527 /* filewritestream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filewritestream.h; sourceTree = "<group>"; };
+		32C82A68250B54C000C5B527 /* rapidjson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rapidjson.h; sourceTree = "<group>"; };
+		32C82A69250B54C000C5B527 /* document.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = document.h; sourceTree = "<group>"; };
+		32C82A6A250B54C000C5B527 /* allocators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = allocators.h; sourceTree = "<group>"; };
+		32C82A6B250B54C000C5B527 /* writer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = writer.h; sourceTree = "<group>"; };
+		32C82A6D250B54C000C5B527 /* error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = error.h; sourceTree = "<group>"; };
+		32C82A6E250B54C000C5B527 /* en.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = en.h; sourceTree = "<group>"; };
+		32C82A6F250B54C000C5B527 /* memorybuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = memorybuffer.h; sourceTree = "<group>"; };
+		32C82A70250B54C000C5B527 /* pointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pointer.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -306,6 +376,7 @@
 				3232F9792414A34B00A1A4F6 /* lottieparser.cpp */,
 				3232F97E2414A34B00A1A4F6 /* lottieproxymodel.cpp */,
 				32C82A47250B51B300C5B527 /* lottiefiltermodel.h */,
+				32C82A4B250B54C000C5B527 /* rapidjson */,
 			);
 			path = lottie;
 			sourceTree = "<group>";
@@ -420,6 +491,64 @@
 			path = rlottie;
 			sourceTree = "<group>";
 		};
+		32C82A4B250B54C000C5B527 /* rapidjson */ = {
+			isa = PBXGroup;
+			children = (
+				32C82A4C250B54C000C5B527 /* fwd.h */,
+				32C82A4D250B54C000C5B527 /* memorystream.h */,
+				32C82A4E250B54C000C5B527 /* reader.h */,
+				32C82A4F250B54C000C5B527 /* prettywriter.h */,
+				32C82A50250B54C000C5B527 /* ostreamwrapper.h */,
+				32C82A51250B54C000C5B527 /* encodedstream.h */,
+				32C82A52250B54C000C5B527 /* filereadstream.h */,
+				32C82A53250B54C000C5B527 /* cursorstreamwrapper.h */,
+				32C82A54250B54C000C5B527 /* istreamwrapper.h */,
+				32C82A55250B54C000C5B527 /* stringbuffer.h */,
+				32C82A56250B54C000C5B527 /* internal */,
+				32C82A64250B54C000C5B527 /* encodings.h */,
+				32C82A65250B54C000C5B527 /* schema.h */,
+				32C82A66250B54C000C5B527 /* stream.h */,
+				32C82A67250B54C000C5B527 /* filewritestream.h */,
+				32C82A68250B54C000C5B527 /* rapidjson.h */,
+				32C82A69250B54C000C5B527 /* document.h */,
+				32C82A6A250B54C000C5B527 /* allocators.h */,
+				32C82A6B250B54C000C5B527 /* writer.h */,
+				32C82A6C250B54C000C5B527 /* error */,
+				32C82A6F250B54C000C5B527 /* memorybuffer.h */,
+				32C82A70250B54C000C5B527 /* pointer.h */,
+			);
+			path = rapidjson;
+			sourceTree = "<group>";
+		};
+		32C82A56250B54C000C5B527 /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				32C82A57250B54C000C5B527 /* ieee754.h */,
+				32C82A58250B54C000C5B527 /* strtod.h */,
+				32C82A59250B54C000C5B527 /* swap.h */,
+				32C82A5A250B54C000C5B527 /* regex.h */,
+				32C82A5B250B54C000C5B527 /* diyfp.h */,
+				32C82A5C250B54C000C5B527 /* biginteger.h */,
+				32C82A5D250B54C000C5B527 /* strfunc.h */,
+				32C82A5E250B54C000C5B527 /* itoa.h */,
+				32C82A5F250B54C000C5B527 /* stack.h */,
+				32C82A60250B54C000C5B527 /* dtoa.h */,
+				32C82A61250B54C000C5B527 /* clzll.h */,
+				32C82A62250B54C000C5B527 /* meta.h */,
+				32C82A63250B54C000C5B527 /* pow10.h */,
+			);
+			path = internal;
+			sourceTree = "<group>";
+		};
+		32C82A6C250B54C000C5B527 /* error */ = {
+			isa = PBXGroup;
+			children = (
+				32C82A6D250B54C000C5B527 /* error.h */,
+				32C82A6E250B54C000C5B527 /* en.h */,
+			);
+			path = error;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -427,45 +556,80 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32C82A7A250B54C000C5B527 /* filereadstream.h in Headers */,
 				3232FAD22414A34C00A1A4F6 /* velapsedtimer.h in Headers */,
+				32C82A96250B54C000C5B527 /* pointer.h in Headers */,
+				32C82A8F250B54C000C5B527 /* rapidjson.h in Headers */,
+				32C82A79250B54C000C5B527 /* encodedstream.h in Headers */,
 				3232FAA32414A34C00A1A4F6 /* lottiekeypath.h in Headers */,
+				32C82A94250B54C000C5B527 /* en.h in Headers */,
+				32C82A84250B54C000C5B527 /* strfunc.h in Headers */,
 				3232FB092414A34C00A1A4F6 /* vimageloader.h in Headers */,
+				32C82A8E250B54C000C5B527 /* filewritestream.h in Headers */,
 				3232FB0B2414A34C00A1A4F6 /* vmatrix.h in Headers */,
+				32C82A75250B54C000C5B527 /* memorystream.h in Headers */,
 				3232FB022414A34C00A1A4F6 /* vrect.h in Headers */,
 				3232FB0D2414A34C00A1A4F6 /* vcowptr.h in Headers */,
 				3232FB312414A6D800A1A4F6 /* rlottiecommon.h in Headers */,
 				3232FAFE2414A34C00A1A4F6 /* vglobal.h in Headers */,
+				32C82A7F250B54C000C5B527 /* strtod.h in Headers */,
 				3232FAE32414A34C00A1A4F6 /* v_ft_math.h in Headers */,
+				32C82A7C250B54C000C5B527 /* istreamwrapper.h in Headers */,
+				32C82A8C250B54C000C5B527 /* schema.h in Headers */,
 				32C82A48250B51B300C5B527 /* lottiefiltermodel.h in Headers */,
 				3232FB002414A34C00A1A4F6 /* vpainter.h in Headers */,
 				3232F8B62414A0D600A1A4F6 /* config.h in Headers */,
 				3232FB082414A34C00A1A4F6 /* vstackallocator.h in Headers */,
 				3232FACE2414A34C00A1A4F6 /* vdasher.h in Headers */,
+				32C82A92250B54C000C5B527 /* writer.h in Headers */,
 				3232FAF42414A34C00A1A4F6 /* vtaskqueue.h in Headers */,
 				3232FAE82414A34C00A1A4F6 /* vdrawable.h in Headers */,
+				32C82A82250B54C000C5B527 /* diyfp.h in Headers */,
+				32C82A85250B54C000C5B527 /* itoa.h in Headers */,
+				32C82A76250B54C000C5B527 /* reader.h in Headers */,
 				3232FACF2414A34C00A1A4F6 /* vrle.h in Headers */,
 				3232FADD2414A34C00A1A4F6 /* v_ft_types.h in Headers */,
 				3232FB332414A6D800A1A4F6 /* rlottie_capi.h in Headers */,
+				32C82A77250B54C000C5B527 /* prettywriter.h in Headers */,
+				32C82A93250B54C000C5B527 /* error.h in Headers */,
 				3232FAA22414A34C00A1A4F6 /* lottieitem.h in Headers */,
+				32C82A74250B54C000C5B527 /* fwd.h in Headers */,
+				32C82A95250B54C000C5B527 /* memorybuffer.h in Headers */,
 				3232FAEB2414A34C00A1A4F6 /* varenaalloc.h in Headers */,
+				32C82A81250B54C000C5B527 /* regex.h in Headers */,
+				32C82A86250B54C000C5B527 /* stack.h in Headers */,
+				32C82A8A250B54C000C5B527 /* pow10.h in Headers */,
 				3232FAEC2414A34C00A1A4F6 /* vpathmesure.h in Headers */,
 				3232FAE92414A34C00A1A4F6 /* vbitmap.h in Headers */,
+				32C82A87250B54C000C5B527 /* dtoa.h in Headers */,
+				32C82A83250B54C000C5B527 /* biginteger.h in Headers */,
 				3232FAF82414A34C00A1A4F6 /* vbrush.h in Headers */,
 				3232FB322414A6D800A1A4F6 /* rlottie.h in Headers */,
 				3232FB042414A34C00A1A4F6 /* vbezier.h in Headers */,
 				3232FAEA2414A34C00A1A4F6 /* vpoint.h in Headers */,
 				3232FAFB2414A34C00A1A4F6 /* vsharedptr.h in Headers */,
+				32C82A90250B54C000C5B527 /* document.h in Headers */,
 				3232FB172414A3C800A1A4F6 /* stb_image.h in Headers */,
 				3232FAE62414A34C00A1A4F6 /* vdrawhelper.h in Headers */,
+				32C82A78250B54C000C5B527 /* ostreamwrapper.h in Headers */,
+				32C82A80250B54C000C5B527 /* swap.h in Headers */,
 				3232FAE22414A34C00A1A4F6 /* v_ft_stroker.h in Headers */,
 				3232FAE42414A34C00A1A4F6 /* v_ft_raster.h in Headers */,
 				3232FAEE2414A34C00A1A4F6 /* vpath.h in Headers */,
+				32C82A7B250B54C000C5B527 /* cursorstreamwrapper.h in Headers */,
 				3232FB032414A34C00A1A4F6 /* vinterpolator.h in Headers */,
+				32C82A8B250B54C000C5B527 /* encodings.h in Headers */,
+				32C82A7E250B54C000C5B527 /* ieee754.h in Headers */,
 				3232FB0A2414A34C00A1A4F6 /* vraster.h in Headers */,
+				32C82A88250B54C000C5B527 /* clzll.h in Headers */,
+				32C82A7D250B54C000C5B527 /* stringbuffer.h in Headers */,
+				32C82A91250B54C000C5B527 /* allocators.h in Headers */,
+				32C82A8D250B54C000C5B527 /* stream.h in Headers */,
 				3249BD092415249100E29E73 /* librlottie.h in Headers */,
 				3232FAED2414A34C00A1A4F6 /* vdebug.h in Headers */,
 				3232FACB2414A34C00A1A4F6 /* lottiemodel.h in Headers */,
 				3232FAF52414A34C00A1A4F6 /* vline.h in Headers */,
+				32C82A89250B54C000C5B527 /* meta.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
