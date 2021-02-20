@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'librlottie'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'A platform independent standalone library that plays Lottie Animation.'
 
 # This description is used to generate tags and improve search results.
@@ -40,9 +40,4 @@ rlottie is a platform independent standalone c++ library for rendering vector ba
   }
   s.preserve_paths = 'rlottie', 'include', 'generate'
   s.libraries = 'c++'
-
-  # fix 'rlottiecommon.h' file not found with <angled> include; use "quotes" instead
-  s.prepare_command = <<-CMD
-                      sed -i.bak 's/<rlottiecommon.h>/"rlottiecommon.h"/g' './rlottie/inc/rlottie_capi.h'
-                      CMD
 end
